@@ -35,10 +35,11 @@ p:last-child {
 a {
   color: #b32b78;
   text-decoration: none;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 a:hover {
@@ -104,7 +105,7 @@ div.site-subheader {
   font-size: 1em;
   margin-bottom: 40px;
   color: #d6d6d6;
-  margin-top: 10px;
+  margin-top:10px;
 }
 
 ul.site-navigation li {
@@ -120,11 +121,11 @@ ul.site-navigation li i {
 ul.site-navigation li a {
   color: #d6d6d6;
   text-decoration: none;
-  -o-transition: .5s;
-  -ms-transition: .5s;
-  -moz-transition: .5s;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
 }
 
 ul.site-navigation li a:hover {
@@ -152,6 +153,11 @@ main {
 ul.social {
   margin-top: 30px;
   font-size: 1.3em;
+}
+
+ul.social li {
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 ul.social li:last-child {
@@ -183,8 +189,8 @@ div.portfolio-description {
   grid-column: span 1;
 }
 
-@media (max width: 768px) {
-  div.wrapper {
+@media (max-width: 768px) {
+  div.wrapper{
     width: 96%;
     grid-template-columns: 1fr;
   }
